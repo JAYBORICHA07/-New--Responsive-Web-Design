@@ -1,5 +1,51 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+#navbar {
+  display: inline-block;
+  width: 20%;
+  height: 120%;
+  margin: 0;
+  position: fixed;
+  border-right: 1px solid black;
+}
+
+.nav-link{
+  display : block;
+  border-top: 1px solid black;
+  padding: 5% 8%;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+
+}
+
+#js{
+  font-size: xx-large;
+  padding: 5.5% 6%;
+}
+
+#main-doc{
+  display: inline-block;
+  width: 79%; 
+  position: relative;
+  left: 20%;
+  margin-top: 3%;
+  padding-left: 2%;
+}
+.main-section{
+  font-weight: lighter;
+}
+.main-section header{
+  font-size: xx-large;
+  font-weight: 200;
+}
+
+.main-section ul {
+  padding-left: 8%;
+}
+
+p{
+  padding-left: 2%;
+}
