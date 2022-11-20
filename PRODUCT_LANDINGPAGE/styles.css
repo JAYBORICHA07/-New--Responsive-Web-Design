@@ -1,27 +1,89 @@
+body{
+    text-align: center;
+    background-color: rgb(187, 227, 227);
+}
 #header{
-    display: flex;
-    align-items: center;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(187, 227, 227);
+    text-align: justify;
 }
 
 #header-img{
-    height: 30px;
-    width: 300px;
-    padding: 1.5%;
-    display: inline-block;
+    width: 28%;
+    margin: 0;
 }
-
-#nav-bar{
+#nav-bar .nav-link{
     display: inline-block;
+    padding-left: 3%;
 }
-
-#nav-bar{
-    display: flex;
-}
-a{
-    display: inline-block;
+.nav-link a{
     text-decoration: none;
+    color: black;
 }
-#hs{
+#nav-bar {
+    display: inline-block;
+    width: 68%;
+    text-align: right;
+    padding: 1%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+
+.main_section{
+    padding-top: 3%;
+}
+
+#email{
+    border: 2px solid black;
+    width: 15%;
+    padding: 0.5%;
+}
+::placeholder{
+    color: grey;
+}
+#get{
+    display: block;
+    margin: 1.5% auto;
+    background-color: rgb(231, 238, 35);
+    color: black;
+    border: none;
+}
+
+#Features{
+    padding-top: 4%;
+}
+
+#Features div{
+    text-align: left;
+    width: 100%;
+    padding: 0.5% 0 0 25%;
+}
+
+#Pricing{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 20%;
     text-align: center;
+    margin: 1%;
+}
+
+.content{
+    width: 40%;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.c_button{
+    display: block;
+    width: 100%;
+    position: relative;
 }
