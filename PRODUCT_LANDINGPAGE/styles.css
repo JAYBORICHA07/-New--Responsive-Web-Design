@@ -1,0 +1,27 @@
+#header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#header-img{
+    height: 30px;
+    width: 300px;
+    padding: 1.5%;
+    display: inline-block;
+}
+
+#nav-bar{
+    display: inline-block;
+}
+
+#nav-bar{
+    display: flex;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+#hs{
+    text-align: center;
+}
